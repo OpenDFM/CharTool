@@ -1,0 +1,29 @@
+# Datasets
+/data/
+/images
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.venv/
+venv/
+
+# Training and evaluation artifacts
+/checkpoints/
+/outputs/
+/wandb/
+/eval/images/
+/eval/results/
+*.log
+
+# Local caches
+/.cache/
+
+# Editors and operating systems
+.DS_Store
+.idea/
+.vscode/
